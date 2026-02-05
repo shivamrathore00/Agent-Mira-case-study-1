@@ -81,33 +81,6 @@ Invoke-RestMethod -Method Post -Uri http://127.0.0.1:5000/predict -Headers @{"Co
 
 ---
 
-**Would you like me to help you draft the final "Presentation" slides content based on these results?**
-# Real Estate Price Prediction & API Deployment
-
-A complete end-to-end Machine Learning pipeline to predict house prices, featuring multi-core processing and a RESTful API.
-
-## 📌 Project Objective
-
-The goal of this project is to develop a robust machine learning model that predicts property sale prices based on features like location, size, and condition, and deploy it as a production-ready API.
-
-## 🛠️ Key Features
-
-* 
-**Data Pipeline**: Automated preprocessing including One-Hot Encoding for categorical features (Location, Type, Condition) and Median Imputation for missing values.
-
-
-* 
-**Feature Engineering**: Derived "Property Age" from Year Built and Date Sold to capture market trends.
-
-
-* 
-**High Performance**: Implemented **Random Forest Regressor** with **multi-core processing** (`n_jobs=-1`) to optimize training speed.
-
-
-* 
-**REST API**: Built a Flask API that serves model predictions in real-time via JSON payloads.
-
-
 
 ## 📂 Dataset Overview
 
