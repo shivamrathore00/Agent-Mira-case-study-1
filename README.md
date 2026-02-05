@@ -124,16 +124,3 @@ Use the following PowerShell command:
 Invoke-RestMethod -Method Post -Uri http://127.0.0.1:5000/predict -Headers @{"Content-Type"="application/json"} -Body '{"Location": "Downtown", "Size": 1500, "Bedrooms": 3, "Bathrooms": 2, "Condition": "Good", "Type": "Single Family", "Year Built": 2010}'
 
 ```
-
-
-
-## 📊 Results
-
-* **Model**: Random Forest Regressor
-* **Multi-core Support**: Enabled
-* 
-**API Endpoint**: `/predict` (POST) 
-
-
-
----
