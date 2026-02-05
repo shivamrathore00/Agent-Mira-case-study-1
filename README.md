@@ -164,5 +164,3 @@ Invoke-RestMethod -Method Post -Uri http://127.0.0.1:5000/predict -Headers @{"Co
 
 
 ---
-
-**Would you like me to help you draft the final "Presentation" slides content based on these results?**
