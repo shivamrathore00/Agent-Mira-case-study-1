@@ -2,16 +2,16 @@
 
 End-to-end machine learning pipeline with production-ready REST API for real estate price prediction using multi-core processing.
 
-## 📋 Project Completion Summary
+##  Project Completion Summary
 
-### Task Requirements ✅
+### Task Requirements 
 - **Data Preparation**: EDA, cleaning, and feature engineering in `Model_Training_and_Comparison.ipynb`
 - **Model Development**: Compared 3 models (Random Forest, Gradient Boosting, XGBoost) - **Random Forest selected**
 - **API Deployment**: Flask REST API with comprehensive validation and error handling
 - **Multi-core Processing**: Enabled via `n_jobs=-1` in RandomForestRegressor
 - **Analysis Scripts**: Complete Jupyter notebook with visualizations and cross-validation
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 ├── Model_Training_and_Comparison.ipynb  # EDA, model comparison, feature importance
@@ -21,7 +21,7 @@ End-to-end machine learning pipeline with production-ready REST API for real est
 └── README.md                           # This file
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Install Dependencies
 ```bash
@@ -83,16 +83,16 @@ Invoke-WebRequest -Uri http://localhost:5000/predict `
 }
 ```
 
-## 📊 Model Performance
+##  Model Performance
 
 | Metric | Value |
 |--------|-------|
 | **Algorithm** | Random Forest Regressor |
 | **Test R² Score** | ~0.85-0.90 |
-| **Multi-core** | ✅ Enabled |
+| **Multi-core** |  Enabled |
 | **Cross-validation** | 5-Fold |
 
-## 📈 Key Features Implemented
+##  Key Features Implemented
 
 - **Preprocessing Pipeline**: Handles missing values & categorical encoding
 - **Feature Engineering**: Property_Age derived from dates
@@ -101,7 +101,7 @@ Invoke-WebRequest -Uri http://localhost:5000/predict `
 - **Logging**: Request/response tracking
 - **Production Ready**: Proper HTTP status codes, documentation
 
-## 📌 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Purpose |
 |--------|----------|---------|
@@ -122,17 +122,17 @@ Invoke-WebRequest -Uri http://localhost:5000/predict `
 
 ## ✨ What Makes This Solution Complete
 
-1. ✅ Multiple models trained and compared (RF, GB, XGBoost)
-2. ✅ Data-driven model selection with justification
-3. ✅ Production-grade API with validation
-4. ✅ Multi-core processing throughout
-5. ✅ Comprehensive documentation in notebook
-6. ✅ Tested and working predictions
-7. ✅ Clean code architecture
+1.  Multiple models trained and compared (RF, GB, XGBoost)
+2.  Data-driven model selection with justification
+3.  Production-grade API with validation
+4.  Multi-core processing throughout
+5.  Comprehensive documentation in notebook
+6.  Tested and working predictions
+7.  Clean code architecture
 
 ---
 
-## 🔬 Implementation Methodology & Approach
+##  Implementation Methodology & Approach
 
 ### **Phase 1: Data Understanding & Preparation**
 
@@ -244,15 +244,15 @@ We trained **THREE different regression models** to identify the best performer:
 
 ### **Phase 5: Model Selection Criteria**
 
-**We Selected: XGBoost Regressor** ✅
+**We Selected: XGBoost Regressor** 
 
 **Decision-Making Process:**
 
 | Metric | Random Forest | Gradient Boosting | XGBoost |
 |--------|---------------|-------------------|---------|
-| **Test R² Score** | 0.XX | 0.XX | **0.6528** ⭐ |
-| **Test MAE** | $XX,XXX | $XX,XXX | **$101,526.92** ⭐ |
-| **Test RMSE** | $XX,XXX | $XX,XXX | **$135,464.36** ⭐ |
+| **Test R² Score** | 0.XX | 0.XX | **0.6528**  |
+| **Test MAE** | $XX,XXX | $XX,XXX | **$101,526.92**  |
+| **Test RMSE** | $XX,XXX | $XX,XXX | **$135,464.36**  |
 | **Generalization** | Good | Good | ✅ Excellent |
 | **Regularization** | Limited | Good | ✅ Advanced |
 | **Multi-core** | ✅ Native | Native | ✅ Native |
@@ -295,7 +295,7 @@ Output: $449,377.91 (Model Confidence: High)
 
 ### **Phase 8: Deliverables**
 
-**✅ Analysis Scripts:**
+** Analysis Scripts:**
 - `Model_Training_and_Comparison.ipynb` - Complete end-to-end pipeline with:
   - EDA with visualizations (price distribution, correlations)
   - 3 models trained and compared
@@ -303,18 +303,18 @@ Output: $449,377.91 (Model Confidence: High)
   - Residuals diagnostics
   - Cross-validation results
 
-**✅ Trained Model:**
+** Trained Model:**
 - `house_price_model.joblib` - Serialized Random Forest with preprocessing pipeline
 
-**✅ API Service:**
+** API Service:**
 - `app.py` - Production-ready Flask API with validation and error handling
 
-**✅ Documentation:**
+** Documentation:**
 - `README.md` - Complete guide with examples and methodology
 
 ---
 
-## 📊 Performance Summary
+##  Performance Summary
 
 **Final Model: XGBoost Regressor**
 - **Algorithm**: Extreme Gradient Boosting with Regularization
@@ -322,9 +322,9 @@ Output: $449,377.91 (Model Confidence: High)
 - **Test MAE**: $101,526.92 (average prediction error)
 - **Test RMSE**: $135,464.36 (root mean squared error)
 - **Performance**: Best among all tested models
-- **Multi-core**: ✅ Enabled (`n_jobs=-1`)
+- **Multi-core**:  Enabled (`n_jobs=-1`)
 
-**API Status**: ✅ Working and Tested
+**API Status**:  Working and Tested
 - Successfully predicts house prices
 - Validates all input fields
 - Returns accurate predictions in JSON format
